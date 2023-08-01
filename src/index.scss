@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 17px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: #E5E5E5;
+    text-align: center;
+    font-family: Avenir Next;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text2 {
+    color: #FFF;
+    font-family: Avenir Next;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+    height: 25px;
+}
+
+.text {
+    color: #FFF;
+    font-family: Avenir Next;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.text-medium {
+    color: #9C9C9C;
+    font-family: Avenir Next;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.demi-bold {
+    color: #FFF;
+    font-family: Avenir Next;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -1.3px;
+}
+
+.bold {
+    color: #FFF;
+    font-family: Avenir Next;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.405px;
+}
+
+.bold1 {
+    color: #B3B3B3;
+    font-family: Avenir Next;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    width: 130px;
+}
